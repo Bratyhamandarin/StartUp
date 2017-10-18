@@ -1,0 +1,204 @@
+body {
+  font-size: 17px;
+  min-width: 400px;
+}
+
+main {
+  height: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+main .row {
+  margin: 0;
+}
+
+.container {
+  padding: 0;
+}
+.map {
+  min-height: 100vh;
+  background: url(../images/map2.jpg) no-repeat center center
+  white;
+  background-size:150%;
+}
+.wrapper-center::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.gids_search-form {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  background-color:#333;
+  padding: 1rem;
+  border: 1px white solid;
+  border-radius: 10px;
+}
+.select {
+  display: inline-block;
+  vertical-align: middle;
+  height: 5rem;
+  margin: 0;
+  border-radius: 10px;
+  border: none;
+  outline: inherit;
+  font-size: 2rem;
+}
+
+.search-form {
+  max-width: 30rem;
+  padding-left: .2rem;
+}
+
+.search-form_sumbit {
+  cursor: pointer;
+  color:white;
+  background-color: red;
+  border: 1px white solid;
+  transition: background-color .2s, color .2s;
+}
+.search-form_sumbit:hover {
+  background-color: white;
+  color:red;
+}
+
+.wrapper-center{
+  text-align: center;
+  height: 100vh;
+}
+.navbar-brand {
+  padding-top: 7px;
+  padding-bottom: 0;
+}
+
+.sticky {
+  position: relative;
+}
+
+h3 {
+  font-weight: bold;
+}
+.landing_section {
+  padding: .2rem 0 .2rem 0;
+  font-size: 17px;
+  border-bottom: 1px rgba(0,0,0, 0.1) solid;
+}
+.landing_section p {
+  text-align: justify;
+}
+.wrapper {
+  text-align: center;
+  margin: 3rem;
+
+}
+.wrapper span, .wrapper button{
+  border: 2px #4F4D61 solid;
+  padding: .5rem;
+  font-size: 2rem;
+}
+.wrapper button {
+  background: #333;
+  color:white;
+  outline: inherit;
+  transition: color .5s, background .5s;
+}
+.wrapper span {
+  background: white;
+  color:#333;
+}
+.wrapper button:hover {
+  background: white;
+  color:#333;
+}
+
+.landing_gids ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.center {
+  text-align: center
+}
+.gid_info {
+  display: inline-block;
+  padding: 0 .2rem 0 .2rem;
+  margin: 1rem;
+}
+
+.profile1 {
+  background: url(../images/profile4.jpg) no-repeat center center
+  white;
+}
+.profile2 {
+  background: url(../images/profile5.jpg) no-repeat center center
+  #515349;
+}
+.profile3 {
+  background: url(../images/profile1.jpg) no-repeat center center
+  #515349;
+}
+.profile4 {
+  background: url(../images/profile2.jpg) no-repeat center center
+  #515349;
+}
+.profile5 {
+  background: url(../images/profile6.jpg) no-repeat center center
+  #515349;
+}
+.profile6 {
+  background: url(../images/profile6.jpg) no-repeat center center
+  #515349;
+}
+.profile7 {
+  background: url(../images/profile6.jpg) no-repeat center center
+  #515349;
+}
+.profile_photo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-size: 150%;
+}
+.profile_info {
+  float: right;
+}
+.profile_info li{
+  font-size: 15px;
+  text-align: left;
+}
+.profile_info li:first-child {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 6rem;
+  background-color: #333;
+  color:white;
+}
+footer span {
+  padding: .2rem 1rem
+}
+footer a {
+  color: white;
+  font-size: 3rem;
+  padding: .5rem 1rem;
+  transition: color .4s;
+  text-decoration: none !important;
+}
+footer a:hover {
+  color: #A33028;
+  text-decoration: none;
+}
+
+@media
+(min-width: 1200px) {
+  .sticky {
+    position: fixed;
+    left: 0;
+  }
+}
